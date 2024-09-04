@@ -15,8 +15,8 @@
    * From https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata, two csv files which contain information about 4803 movies were downloaded, merged and simplified.
    * Investigate whether some "generalised friendship paradox" discussed in the paper "Generalized friendship paradox in complex networks: The case of scientific collaboration" is observed in the data, namely whether in general for actors, their co-actors are more "successful" than them in terms of the number of appearances in movies and also the average revenue.
 3. Create players with different strategies to play the number guessing game we have seen in Workshop 2
-  * Consider 3 simple strategies: select at random, select the smallest and select the mid. 
-  * Consider a strategy inspired by reinforcement learning.
+   * Consider 3 simple strategies: select at random, select the smallest and select the mid.
+   * Consider a strategy inspired by reinforcement learning.
 
 
 A report in a Jupyter Notebook in [`report.ipynb`](report.ipynb) is attached to demonstrate my programs and summarise my result.
@@ -40,11 +40,9 @@ Must_ use _all_ of the following in the project _appropriately_:
 * Important data science tools including `Numpy` and/or `Pandas` with vectorised operations and Jupyter Notebook
   * Note using `NumPy` _or_ `Pandas` is enough, although you can use both if you want to
 
-See the marking criteria below for more details.
-
 
 ---
-## Knowledge that you _may_ consider to demonstrate
+## Knowledge to demonstrate
 
 * Debugging
 * Error raising and handling
