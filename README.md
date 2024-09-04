@@ -1,41 +1,30 @@
 # ST101 Programming for Data Science
 
-## Final Project
+## Final Project (Mark received: 86/100)
 
 ### 2022/23 Michaelmas Term
 
 ---
 
-## Objectives
-
-The project serves as the most important coursework for us to assess your progress in the course in terms of:
-* Understanding of the course materials
-* Ability to apply the course materials on real life problems using programming
-* Other skills like problem solving and self learning skills
-
-To allow us to be able to assess the qualities above, you are asked to complete 3 programming tasks (with 2 parts in Q3) and write a report to demonstrate your programs and summarise your results (See the section `Tasks` for more details). You are also required to use the programming concepts/tools listed under the section `Concepts/tools you must use` to show that you are capable of applying _all_ (or most) of the programming concepts/tools we have learned in this course.
-
----
-
 ## Tasks
 
-1. Cipher using the functional programming approach. See [crypto.md](crypto.md) for further instructions
-2. Investigate if the "Success paradox" is observed using a movie dataset. See [success_paradox.md](success_paradox.md) for further instructions
+1. Cipher using the functional programming approach
+   * In [crypto.py](crypto.py), write the function definition for the function encode() and decode()
+   * In [report.ipynb](report.ipynb), demonstrate the use of the two functions
+2. Investigate if the "Success paradox" is observed using a movie dataset.
+   * From https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata, two csv files which contain information about 4803 movies were downloaded, merged and simplified.
+   * Investigate whether some "generalised friendship paradox" discussed in the paper "Generalized friendship paradox in complex networks: The case of scientific collaboration" is observed in the data, namely whether in general for actors, their co-actors are more "successful" than them in terms of the number of appearances in movies and also the average revenue.
 3. Create players with different strategies to play the number guessing game we have seen in Workshop 2
-  * Consider 3 simple strategies: select at random, select the smallest and select the mid. See [number_guessing_game.md](number_guessing_game.md) for further instructions
-  * Consider a strategy inspired by reinforcement learning. See [number_guessing_game_reinforcement.md](number_guessing_game_reinforcement.md) for further instructions
+  * Consider 3 simple strategies: select at random, select the smallest and select the mid. 
+  * Consider a strategy inspired by reinforcement learning.
 
 
-**All the code must be submitted.**
-
-You are also required to write a report in a Jupyter Notebook in [`src/report.ipynb`](src/report.ipynb) to demonstrate your programs and summarise your result.
-
-For each task, you must state clearly in the report where the corresponding code is (if it is not in the report and the location is not specified by the corresponding question). For other things you need to include in the report for task 1-3, please refer to the corresponding instructions.
+A report in a Jupyter Notebook in [`report.ipynb`](report.ipynb) is attached to demonstrate my programs and summarise my result.
 
 ---
-## Concepts/tools you _must_ use
+## Concepts/tools must_ use
 
-You _must_ use _all_ of the following in your project _appropriately_:
+Must_ use _all_ of the following in the project _appropriately_:
 
 * Basics: control flow and appropriate use of containers
 * Functions: abstraction and decomposition
@@ -53,7 +42,6 @@ You _must_ use _all_ of the following in your project _appropriately_:
 
 See the marking criteria below for more details.
 
-If you think that some concepts/tools above are not appropriate for what you want to do, please contact the lecturer and we will see if such omission can be accepted, or alternative arrangement can be made.
 
 ---
 ## Knowledge that you _may_ consider to demonstrate
